@@ -26,5 +26,3 @@ Integração IoT: Garantir que o sistema seja compatível com a infraestrutura I
 Validação e Testes: Realizar testes extensivos do sistema com usuários reais e ajustar os algoritmos e funcionalidades com base no feedback.
 
 Implantação e Monitoramento Contínuo: Após o desenvolvimento, implantar o sistema em um ambiente de produção e monitorar continuamente seu desempenho e segurança.
-
-Esse trabalho de pesquisa visa criar uma solução inovadora que utiliza um smartwatch como dispositivo IoT para melhorar o acompanhamento da saúde e o bem-estar do usuário, fornecendo informações úteis para diagnósticos e previsões de saúde. A conclusão bem-sucedida desse projeto pode ter implicações significativas no campo da saúde digital e da Internet das Coisas.
