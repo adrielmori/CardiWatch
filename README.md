@@ -1,28 +1,13 @@
-# CardiWatch
+# Desenvolvimento de um Sistema Integrado para Previsão de Peso com Base em Dados Multiparamétricos: Uma abordagem utilizando Gêmeo Digital e Aprendizagem de Máquina.
 
-Descrição do Trabalho:  Desenvolvimento de um Sistema de Coleta e Análise de Dados de Usuário para Diagnósticos e Predições usando um Smartwatch como Dispositivo IoT.
+## Uma descrição do domínio de aplicação
+O domínio da aplicação proposta está centrado na monitorização da saúde e previsão de peso corporal de usuários por meio da integração de dados multiparamétricos coletados por uma balança inteligente e um dispositivo vestível. Esse sistema visa permitir a análise temporal desses dados, apresentando informações em dashboards em diversos dispositivos. 
 
-Resumo:
-O objetivo deste trabalho é criar um sistema de coleta, armazenamento e análise de dados de usuário utilizando um smartwatch como dispositivo IoT (Internet of Things). O smartwatch será utilizado para monitorar uma variedade de informações, como frequência cardíaca, nível de atividade física, sono, entre outros parâmetros. Os dados coletados serão persistentemente armazenados e processados para fornecer diagnósticos e previsões relevantes para a saúde e o bem-estar do usuário.
+## Uma descrição das funcionalidades do sistema ou aplicação proposta
+Este estudo propõe o desenvolvimento de uma aplicação voltada para a monitorização da saúde e previsão do peso de indivíduos, utilizando uma combinação de tecnologias, incluindo uma balança digital e um smartwatch. O objetivo principal é estabelecer uma relação ubíqua entre as variáveis multiparamétricas registradas pelo smartwatch e o peso corporal do usuário em uma relação temporal do comportamento de seus dados multiparamétricos, relacionados à variação do peso corpóreo avaliado em passos de tempo de 24 horas (um dia). As informações coletadas serão persistidas em um banco de dados para facilitar a análise retrospectiva e o treinamento de modelos de aprendizado de máquina.
 
-## Descrição do Trabalho:
+A funcionalidade central do sistema proposto consiste na concepção de uma aplicação ubíqua, na qual usuários que dispõem de uma balança inteligente e um dispositivo vestível para a coleta multiparamétrica de dados de saúde podem integrar essas informações simultaneamente. Tais dados serão persistentemente armazenados em um banco de dados. Ao serem avaliados temporalmente, esses dados serão apresentados de maneira pervasiva em dashboards em diferentes dispositivos. A persistência desses dados possibilitará a aplicação de técnicas avançadas de aprendizado de máquina, particularmente na competência de previsão de séries temporais com covariáveis. Os dados multiparamétricos persistentes serão utilizados como features de aprendizado, enquanto o peso no dia seguinte será o rótulo associado a cada dia específico.
 
-Coleta de Dados: O primeiro passo envolve a seleção e configuração de sensores no smartwatch para coletar informações relevantes. Isso pode incluir acelerômetros, sensores de frequência cardíaca, GPS, e outros dispositivos incorporados.
+Nesse contexto, torna-se imperativo a aplicação de técnicas fundamentadas no paradigma de gêmeo digital, no qual é simulado, com base nos dados personalizados do usuário, a geração do gêmeo digital preditivo da perda de peso do usuário. Essa simulação é conduzida com consideração ao critério temporal, permitindo que o usuário antecipe virtualmente sua perda de peso após um determinado número de dias como entrada.
 
-Armazenamento de Dados: Os dados coletados serão transmitidos para um servidor central ou armazenados em nuvem para garantir a persistência e disponibilidade dos dados.
-
-Processamento de Dados: Técnicas de processamento de dados em tempo real e análise de dados serão aplicadas para detectar padrões, tendências e anomalias nos dados coletados. Isso pode incluir algoritmos de aprendizado de máquina e análise estatística.
-
-Diagnósticos de Saúde: Com base nos dados coletados e processados, o sistema poderá fornecer diagnósticos de saúde, como detecção de arritmias cardíacas, avaliação do nível de atividade física e qualidade do sono, entre outros.
-
-Predições de Saúde: Além dos diagnósticos, o sistema poderá fazer previsões de saúde, como identificação de possíveis problemas de saúde no futuro com base nos dados históricos.
-
-Interface de Usuário: Desenvolver uma interface amigável para que os usuários possam visualizar seus dados, diagnósticos e previsões, bem como configurar preferências e metas de saúde.
-
-Segurança e Privacidade: Garantir que os dados do usuário sejam protegidos adequadamente e estejam em conformidade com as regulamentações de privacidade de dados.
-
-Integração IoT: Garantir que o sistema seja compatível com a infraestrutura IoT, permitindo a comunicação eficaz entre o smartwatch e outros dispositivos ou serviços IoT.
-
-Validação e Testes: Realizar testes extensivos do sistema com usuários reais e ajustar os algoritmos e funcionalidades com base no feedback.
-
-Implantação e Monitoramento Contínuo: Após o desenvolvimento, implantar o sistema em um ambiente de produção e monitorar continuamente seu desempenho e segurança.
+Esse cenário adquire relevância significativa para profissionais da área de nutrição e nutrólogos, oferecendo uma ferramenta valiosa para tomadas de decisões embasadas em informações preditivas e personalizadas sobre a evolução do peso corporal do usuário ao longo do tempo.
