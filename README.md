@@ -11,3 +11,14 @@ A funcionalidade central do sistema proposto consiste na concepção de uma apli
 Nesse contexto, torna-se imperativo a aplicação de técnicas fundamentadas no paradigma de gêmeo digital, no qual é simulado, com base nos dados personalizados do usuário, a geração do gêmeo digital preditivo da perda de peso do usuário. Essa simulação é conduzida com consideração ao critério temporal, permitindo que o usuário antecipe virtualmente sua perda de peso após um determinado número de dias como entrada.
 
 Esse cenário adquire relevância significativa para profissionais da área de nutrição e nutrólogos, oferecendo uma ferramenta valiosa para tomadas de decisões embasadas em informações preditivas e personalizadas sobre a evolução do peso corporal do usuário ao longo do tempo.
+
+## Link para os códigos
+
+### Gemeo Digital 
+https://github.com/adrielmori/model_SARIMAX_cardiWatch
+
+### Aplicativo android 
+https://github.com/adrielmori/INF0306
+
+### Aplicativo smartWatch 
+https://github.com/igorpadua/cardiSmartWatch
